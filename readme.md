@@ -1,18 +1,27 @@
 # 트랜스포머
-
 - 구글 연구팀이 발표한 논문 ([Attention is all you need](https://arxiv.org/abs/1706.03762))
 - 대형 언어 모델(LLM)을 뛰어 넘어 이미지 처리에도 사용된다.
 - 사전 훈련 모델(및 데이터)을 이용해 개인에 맞춰 **파인튜닝(ULMFiT)**.
 
-> [ULMFiT : Uniiversal Language Model Fine-tuning](https://arxiv.org/abs/1801.06146)
-> 1. **계층별 고정 (Layer-wise Freezing)**: 
-> 상위 계층부터 순차적으로 학습하여, 특정 작업에 필요한 정보는 조정하면서도 언어의 일반적인 패턴은 보존함.
-> 2. **차별적 미세 조정 (Discriminative Fine-tuning)**:
-> 계층마다 다른 학습률을 적용해, 상위 계층은 더 적극적으로 학습하고, 하위 계층은 덜 변화시킴.
-> 3. **기울어진 삼각 학습률 (Slanted Triangular Learning Rates)**:
-> 초기 학습률을 높게 시작해 빠르게 적응하고, 후반에는 낮춰 안정적으로 수렴하도록 함. <br><br>
+>[ULMFiT : Uniiversal Language Model Fine-tuning](https://arxiv.org/abs/1801.06146)
+>1. **계층별 고정 (Layer-wise Freezing)**: 
+>상위 계층부터 순차적으로 학습하여, 특정 작업에 필요한 정보는 조정하면서도 언어의 일반적인 패턴은 보존함.
+>2. **차별적 미세 조정 (Discriminative Fine-tuning)**:
+>계층마다 다른 학습률을 적용해, 상위 계층은 더 적극적으로 학습하고, 하위 계층은 덜 변화시킴.
+>3. **기울어진 삼각 학습률 (Slanted Triangular Learning Rates)**:
+>초기 학습률을 높게 시작해 빠르게 적응하고, 후반에는 낮춰 안정적으로 수렴하도록 함. <br><br>
 
-### 수많은 트랜스 포머 기반의 모델들
+### 목차
+
+- 00_Attention.ipynb
+  1. RNN 구조의 인코더 디코더의 문제점
+  2. 인코더 디코더에서의 어텐션 매커니즘
+  3. ULMFiT(Universal Language Model Fine-tuning)
+- make_file_list.ipynb
+
+
+
+### 다양한 트랜스 포머 기반의 모델들
 | 연도  | 설명                                                               |
 |-------|--------------------------------------------------------------------|
 | 2017  | **Transformer**: "Attention is all you need" 논문에서 소개된 모델로, 순차적인 데이터 처리 없이 병렬 처리가 가능.<br>**ULMFiT**: 전이 학습을 활용한 언어 모델로, NLP 태스크에서 높은 성능을 발휘. |
