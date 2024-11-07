@@ -11,3 +11,8 @@
   - transformer pipeline - 요약
   - transformer pipeline - 번역
   - transformer pipeline - 텍스트 생성
+- [02_text_classification.ipynb](02_text_classification.ipynb)
+  - 진행 순서
+  - 데이터셋
+  - 데이터 셋 to Dataframe
+  - 데이터 톺아보기
