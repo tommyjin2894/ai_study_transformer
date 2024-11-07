@@ -1,4 +1,4 @@
 'transformers[torch]'
 jupyter ipywidgets
 pandas
-kagglehub
+datasets
