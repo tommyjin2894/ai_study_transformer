@@ -1,4 +1,6 @@
 # 트랜스포머
+### 참고 서적 : [트랜스 포머를 활용한 자연어 처리](https://books.google.co.kr/books?id=BUihEAAAQBAJ&pg=PP1&dq=%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8%EB%A5%BC+%ED%99%9C%EC%9A%A9%ED%95%9C&hl=ko&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwj5yorIucmJAxUEh68BHfouDkEQ6AF6BAgJEAI)
+
 - 구글 연구팀이 발표한 논문 ([Attention is all you need](https://arxiv.org/abs/1706.03762))
 - 대형 언어 모델(LLM)을 뛰어 넘어 이미지 처리에도 사용된다.
 - 사전 훈련 모델(및 데이터)을 이용해 개인에 맞춰 **파인튜닝(ULMFiT)**.
@@ -17,6 +19,16 @@
   1. RNN 구조의 인코더 디코더의 문제점
   2. 인코더 디코더에서의 어텐션 매커니즘
   3. ULMFiT(Universal Language Model Fine-tuning)
+  4. 셀프 어텐션과 전이학습을 이용한 모델들
+- [01_huggingface_간단구현.ipynb](01_huggingface_간단구현.ipynb)
+  - 허깅페이스
+  - transformer pipeline - 텍스트 분류
+  - transformer pipeline - 개체명 인식(Ner)
+  - transformer pipeline - 질의 응답
+  - transformer pipeline - 요약
+  - transformer pipeline - 번역
+  - transformer pipeline - 텍스트 생성
+
 
 ### 다양한 트랜스 포머 기반의 모델들
 | 연도  | 설명                                                               |
