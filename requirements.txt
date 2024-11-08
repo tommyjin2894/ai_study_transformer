@@ -2,3 +2,6 @@
 jupyter ipywidgets
 pandas
 datasets
+matplotlib
+scikit-learn
+imblearn
