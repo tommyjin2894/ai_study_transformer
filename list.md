@@ -25,5 +25,7 @@
   - distilBERT(End to End finetuning)
   - cf) keras로 훈련 시키기(예시)
   - 직접 훈련한 모델 불러와서 사용 해보기(pipeline)
-- [99_to_study.ipynb](99_to_study.ipynb)
-  - python : mapping with dict
+- [03_Transformer.ipynb](03_Transformer.ipynb)
+  [트랜스 포머](https://arxiv.org/pdf/1706.03762)
+  - **어텐션 가중치(attention weights)**
+  - **셀프 어텐션**
