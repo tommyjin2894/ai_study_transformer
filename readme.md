@@ -38,9 +38,12 @@
   - 부분 단어 토큰화
   - 전체 데이터 셋 토큰화
   - DistilBERT 훈련하기
-  - [distilBERT](https://arxiv.org/pdf/1910.01108)
-
-
+  - DistilBERT 예측 분류(machine learning head)
+  - distilBERT(End to End finetuning)
+  - cf) keras로 훈련 시키기(예시)
+  - 직접 훈련한 모델 불러와서 사용 해보기(pipeline)
+- [99_to_study.ipynb](99_to_study.ipynb)
+  - python : mapping with dict
 
 ### 다양한 트랜스 포머 기반의 모델들
 | 연도  | 설명                                                               |
