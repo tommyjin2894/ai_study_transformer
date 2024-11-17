@@ -26,6 +26,9 @@
   - cf) keras로 훈련 시키기(예시)
   - 직접 훈련한 모델 불러와서 사용 해보기(pipeline)
 - [03_Transformer.ipynb](03_Transformer.ipynb)
-  [트랜스 포머](https://arxiv.org/pdf/1706.03762)
   - **어텐션 가중치(attention weights)**
+  - seq2seq 의 attention 매커니즘
+  - 기존 seq2seq 및 + attention 이용의 단점
+  - [트랜스 포머](https://arxiv.org/pdf/1706.03762)
+  - 다양한 트랜스 포머 모델들
   - **셀프 어텐션**
