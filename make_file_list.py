@@ -33,10 +33,7 @@ def save_headings_to_md(headings_dict, output_file):
         for file_name, headings_list in headings_dict.items():
             f.write(f"- [{file_name}]({file_name})\n")
             for heading in headings_list:
-                if re.search(r'\d', heading):
-                    f.write(f"  {heading}\n")
-                else:
-                    f.write(f"  - {heading}\n")
+                f.write(f"  - {heading}\n")
 
 # 사용 예제
 folder_path = '.'  # 현재 폴더
