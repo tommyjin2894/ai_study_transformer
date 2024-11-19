@@ -27,15 +27,19 @@
   - 직접 훈련한 모델 불러와서 사용 해보기(pipeline)
 - [03_Transformer.ipynb](03_Transformer.ipynb)
   - **어텐션 가중치(attention weights)**
-  - seq2seq 의 attention 매커니즘
+  - seq2seq 의 attention 매커니즘(인코더 디코더 어텐션)
   - 기존 seq2seq 및 + attention 이용의 단점
   - [트랜스 포머](https://arxiv.org/pdf/1706.03762)
   - 다양한 트랜스 포머 모델들
   - **셀프 어텐션**
   - 어텐션 시각화
-  - 인코더 구현
   - 밀집 임베딩 만들기
   - 셀프 어텐션 구하기(임베딩 된 벡터들을 이용하여 유사도 계산)
   - bert-base-uncased의 어텐션 헤드 출력 확인
   - Position Wise Feed Forward Layer
   - 층 정규화 및 스킵 커넥션
+  - 인코더 구현
+  - 위치 임베딩 추가하기
+  - 상대적 위치 표현을 포함한 트랜스 포머의 인코더
+  - 분류 헤드 추가하기
+  - 디코더 의 어텐션

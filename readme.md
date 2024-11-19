@@ -44,7 +44,7 @@
   - 직접 훈련한 모델 불러와서 사용 해보기(pipeline)
 - [03_Transformer.ipynb](03_Transformer.ipynb)
   - **어텐션 가중치(attention weights)**
-  - seq2seq 의 attention 매커니즘
+  - seq2seq 의 attention 매커니즘(인코더 디코더 어텐션)
   - 기존 seq2seq 및 + attention 이용의 단점
   - [트랜스 포머](https://arxiv.org/pdf/1706.03762)
   - 다양한 트랜스 포머 모델들
@@ -53,10 +53,26 @@
   - 밀집 임베딩 만들기
   - 셀프 어텐션 구하기(임베딩 된 벡터들을 이용하여 유사도 계산)
   - bert-base-uncased의 어텐션 헤드 출력 확인
+  - Position Wise Feed Forward Layer
+  - 층 정규화 및 스킵 커넥션
+  - 인코더 구현
+  - 위치 임베딩 추가하기
+  - 상대적 위치 표현을 포함한 트랜스 포머의 인코더
+  - 분류 헤드 추가하기
+  - 디코더 의 어텐션
 
 
+### 다양한 트랜스포머 기반의 모델들
+| 연도  | 설명                                                               |
+|-------|--------------------------------------------------------------------|
+| 2018  | **BERT**: Bidirectional Encoder Representations from Transformers의 약자로, 문맥을 양방향으로 이해하므로 다양한 NLP 태스크에서 성능이 우수.<br>**DistilBERT**: BERT의 경량화 버전으로, 연산 속도를 개선함. |
+| 2019  | **RoBERTa**: BERT를 개선하여 더 많은 데이터와 훈련 시간을 활용한 모델.<br>**XLM**: 다국어 모델로, 여러 언어 간의 전이 학습을 지원.<br>**XLM-R**: XLM의 개선 버전으로 성능을 더욱 향상.<br>**ALBERT**: BERT의 경량화와 성능 개선을 위한 모델.<br>**ELECTRA**: 효율적인 훈련 방식을 통한 성능 개선.<br>**DeBERTa**: 디코더 기반의 어텐션 방법론을 사용하는 모델. |
+| 2020  | **T5**: 모든 NLP 태스크를 텍스트 변환 문제로 간주하여 훈련.<br>**BART**: 텍스트 요약 및 생성에 특화된 모델.<br>**M2M-100**: 다국어 번역을 위한 모델.<br>**BigBird**: 긴 입력 시퀀스를 처리하는 데 강점을 가진 모델. |
+| 2021  | **GPT**: Generative Pre-trained Transformer로, 텍스트 생성에 강점을 보임.<br>**GPT-2**: GPT의 후속 모델로, 더 큰 데이터와 매개변수를 활용.<br>**CTRL**: 조건부 텍스트 생성을 위한 모델.<br>**GPT-3**: 1750억 개의 매개변수를 가진 매우 대규모 모델.<br>**GPT-Neo**: 오픈 소스 GPT 대안.<br>**GPT-J**: 오픈 소스 GPT-3 대안. |
 
 
+<details>
+<summary>🤗더 많은 Transformer 모델들🤗</summary>
 ### 다양한 트랜스 포머 기반의 모델들
 | 연도  | 설명                                                               |
 |-------|--------------------------------------------------------------------|
@@ -67,3 +83,5 @@
 | 2021  | **GPT-Neo**: 오픈 소스 GPT 대안.<br>**Switch**: 다양한 태스크에 적응할 수 있는 모델.<br>**GLM**: Generalized Language Model, 다양한 언어 처리에 최적화.<br>**GPT-J**: 오픈 소스 GPT-3 대안.<br>**Pangu-α**: 대규모 비즈니스 언어 모델.<br>**PLUG**: 텍스트와 행동의 연계를 중점.<br>**FLAN-PaLM**: 다중 태스크 성능 향상.<br>**FLAN-T5**: 다양한 NLP 태스크에 활용.<br>**BioGPT**: 생물학적 텍스트 처리를 위한 모델. |
 | 2022  | **BLIP**: 비주얼-언어 모델.<br>**LaMDA**: 대화형 AI 모델, 자연스러운 대화 처리.<br>**GPT-NeoX-10B**: 10억 개의 매개변수를 가진 고성능 모델.<br>**AlphaCode**: 프로그래밍 코드 생성.<br>**GLM-130B**: 저비용 고성능 모델.<br>**BLOOM**: 오픈 소스 멀티언어 모델.<br>**Sparrow**: 안전한 대화형 AI.<br>**Galactica**: 과학적 텍스트 이해에 중점.<br>**BLOOMZ**: 다국어 지원 모델.<br>**FLAN**: 다양하고 유연한 특성.<br>**ChatGPT**: 다양한 대화형 태스크에 적합. |
 | 2023  | **Claude 2**: 대화형 AI 발전.<br>**Bard**: 창의적인 텍스트 생성.<br>**Alpaca**: 소규모 파라미터 모델.<br>**ChatGLM**: 대화형 생성 모델.<br>**GPT-4**: GPT 시리즈의 최신 모델.<br>**MiniGPT-4**: 소형 버전의 GPT-4.<br>**LLaVA**: 시각-언어 모델.<br>**mPLUG-owl**: 멀티모달 처리.<br>**YuLan-Chat**: 대화적 AI.<br>**Baichuan**: 중국어 중심의 언어 모델.<br>**VPGTrans**: 비전-언어 모델.<br>**OpenLLaMA**: 오픈 소스 변환 모델.<br>**Otter**: 자연어 처리 기능 강화.<br>**Falcon LLM**: 빠르고 효율적인 모델.<br>**WizardLM**: 다양한 태스크에 적합.<br>**RedPajama-INCITE**: 데이터 처리 최적화.<br>**UltraLM**: 고성능 언어 모델.<br>**Ziya**: 다양한 언어 지원.<br>**InternLM**: 내부 태스크 지원.<br>**MPT-7B**: 7억 개의 파라미터를 가진 모델.<br>**Koala**: 우호적인 대화형 모델.<br>**Baize**: 다양한 주제 처리.<br>**CodeGeeX**: 코드 처리 최적화.<br>**MultimodalGPT**: 멀티모달 정보 처리. |
+
+</details>
