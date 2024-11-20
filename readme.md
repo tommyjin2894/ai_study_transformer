@@ -16,10 +16,10 @@
 ### 목차
 
 - [00_Attention.ipynb](00_Attention.ipynb)
-  - 1. RNN 구조의 인코더 디코더의 문제점
-  - 2. 인코더 디코더에서의 어텐션 매커니즘
-  - 3. ULMFiT(Universal Language Model Fine-tuning)
-  - 4. 셀프 어텐션과 전이학습을 이용한 모델들
+  1. RNN 구조의 인코더 디코더의 문제점
+  2. 인코더 디코더에서의 어텐션 매커니즘
+  3. ULMFiT(Universal Language Model Fine-tuning)
+  4. 셀프 어텐션과 전이학습을 이용한 모델들
 - [01_huggingface_간단구현.ipynb](01_huggingface_간단구현.ipynb)
   - 허깅페이스
   - transformer pipeline - 텍스트 분류
@@ -60,20 +60,13 @@
   - 상대적 위치 표현을 포함한 트랜스 포머의 인코더
   - 분류 헤드 추가하기
   - 디코더 의 어텐션
+  - 평가 방법, 및 데이터셋
+  - 다양한 트랜스포머 모델들
 
-
-### 다양한 트랜스포머 기반의 모델들
-
-| 연도  | 설명                                                               |
-|-------|--------------------------------------------------------------------|
-| 2018  | **BERT**: Bidirectional Encoder Representations from Transformers의 약자로, 문맥을 양방향으로 이해하므로 다양한 NLP 태스크에서 성능이 우수.<br>**DistilBERT**: BERT의 경량화 버전으로, 연산 속도를 개선함. |
-| 2019  | **RoBERTa**: BERT를 개선하여 더 많은 데이터와 훈련 시간을 활용한 모델.<br>**XLM**: 다국어 모델로, 여러 언어 간의 전이 학습을 지원.<br>**XLM-R**: XLM의 개선 버전으로 성능을 더욱 향상.<br>**ALBERT**: BERT의 경량화와 성능 개선을 위한 모델.<br>**ELECTRA**: 효율적인 훈련 방식을 통한 성능 개선.<br>**DeBERTa**: 디코더 기반의 어텐션 방법론을 사용하는 모델. |
-| 2020  | **T5**: 모든 NLP 태스크를 텍스트 변환 문제로 간주하여 훈련.<br>**BART**: 텍스트 요약 및 생성에 특화된 모델.<br>**M2M-100**: 다국어 번역을 위한 모델.<br>**BigBird**: 긴 입력 시퀀스를 처리하는 데 강점을 가진 모델. |
-| 2021  | **GPT**: Generative Pre-trained Transformer로, 텍스트 생성에 강점을 보임.<br>**GPT-2**: GPT의 후속 모델로, 더 큰 데이터와 매개변수를 활용.<br>**CTRL**: 조건부 텍스트 생성을 위한 모델.<br>**GPT-3**: 1750억 개의 매개변수를 가진 매우 대규모 모델.<br>**GPT-Neo**: 오픈 소스 GPT 대안.<br>**GPT-J**: 오픈 소스 GPT-3 대안. |
 
 
 <details>
-<summary>🤗더 많은 Transformer 모델들🤗</summary>
+<summary>🤗 다양한 Transformer 모델들🤗</summary>
 
 ### 다양한 트랜스 포머 기반의 모델들
 | 연도  | 설명                                                               |
