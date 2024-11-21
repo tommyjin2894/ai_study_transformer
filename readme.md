@@ -16,10 +16,10 @@
 ### 목차
 
 - [00_Attention.ipynb](00_Attention.ipynb)
-  1. RNN 구조의 인코더 디코더의 문제점
-  2. 인코더 디코더에서의 어텐션 매커니즘
-  3. ULMFiT(Universal Language Model Fine-tuning)
-  4. 셀프 어텐션과 전이학습을 이용한 모델들
+  - 1. RNN 구조의 인코더 디코더의 문제점
+  - 2. 인코더 디코더에서의 어텐션 매커니즘
+  - 3. ULMFiT(Universal Language Model Fine-tuning)
+  - 4. 셀프 어텐션과 전이학습을 이용한 모델들
 - [01_huggingface_간단구현.ipynb](01_huggingface_간단구현.ipynb)
   - 허깅페이스
   - transformer pipeline - 텍스트 분류
@@ -62,6 +62,11 @@
   - 디코더 의 어텐션
   - 평가 방법, 및 데이터셋
   - 다양한 트랜스포머 모델들
+- [04_NER(다중_언어_개체명_인식).ipynb](04_NER(다중_언어_개체명_인식).ipynb)
+  - 다중언어 개체명인식
+  - 언어 선택하기
+  - 태그 분포 확인하기
+
 
 
 
