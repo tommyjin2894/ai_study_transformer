@@ -13,6 +13,8 @@
 >3. **기울어진 삼각 학습률 (Slanted Triangular Learning Rates)**:
 >초기 학습률을 높게 시작해 빠르게 적응하고, 후반에는 낮춰 안정적으로 수렴하도록 함. <br><br>
 
+### 파일 목록 및 목차
+
 - [00_Attention.ipynb](00_Attention.ipynb)
   - 1. RNN 구조의 인코더 디코더의 문제점
   - 2. 인코더 디코더에서의 어텐션 매커니즘
