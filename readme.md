@@ -77,6 +77,13 @@
   - XLM-RoBERTa 파인튜닝 하기
   - 제로샷 전이 : 교차 언어 전이학습
   - 다국어 동시 파인튜닝 진행하기
+- [05_text_gen.ipynb](05_text_gen.ipynb)
+  - 텍스트 생성
+  - 그리디 서치 디코딩 (Greedy Search Decoding)
+  - 그리디 서치 디코딩의 gpt-2 예시
+  - generate() 함수
+  - 빔 서치 디코딩
+
 
 
 <details>
