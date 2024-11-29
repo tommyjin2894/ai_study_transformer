@@ -82,7 +82,7 @@
   - 그리디 서치 디코딩 (Greedy Search Decoding)
   - 그리디 서치 디코딩의 gpt-2 예시
   - generate() 함수
-  - 빔 서치 디코딩
+  - 빔 서치 디코딩(with $\log$ probability and `no_repeat_ngram_size`)
 
 
 
