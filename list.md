@@ -66,3 +66,6 @@
   - 그리디 서치 디코딩의 gpt-2 예시
   - generate() 함수
   - 빔 서치 디코딩(with $\log$ probability and `no_repeat_ngram_size`)
+  - temperature (모델이 샘플을 추출하는 방식)
+  - top K and top P(Nuclears sampling)
+- [99.Langchain.ipynb](99.Langchain.ipynb)
