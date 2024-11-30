@@ -85,7 +85,19 @@
   - 빔 서치 디코딩(with $\log$ probability and `no_repeat_ngram_size`)
   - temperature (모델이 샘플을 추출하는 방식)
   - top K and top P(Nuclears sampling)
+- [06_summarization.ipynb](06_summarization.ipynb)
+  - CNN/DailyMail Dataset 을 이용한 summarization
+  - nltk, sent tokenize
+  - 요약 모델의 baseline
+  - str + "TL;DR"
+  - gpt2 for summarization
+  - T5 for summarization
+  - BART for summarization
+  - PEGASUS for summarization
+  - 모델별 비교
+  - 모델 평가 (BLEU)
 - [99.Langchain.ipynb](99.Langchain.ipynb)
+
 
 
 
