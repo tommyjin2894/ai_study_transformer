@@ -78,5 +78,6 @@
   - BART for summarization
   - PEGASUS for summarization
   - 모델별 비교
-  - 모델 평가 (BLEU)
+  - 모델 평가 (BLEU:Bilingual Evaluation Understudy Score)
+  - 모델 평가 (ROUGE:Recall-Oriented Understudy for Gisting Evaluation)
 - [99.Langchain.ipynb](99.Langchain.ipynb)
