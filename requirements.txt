@@ -1,1 +1,8 @@
-seqeval
+datasets
+matplotlib
+torch
+torchvision
+torchaudio
+transformers
+seaborn
+elasticsearch-haystack
