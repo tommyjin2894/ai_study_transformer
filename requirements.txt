@@ -6,3 +6,4 @@ torchaudio
 transformers
 seaborn
 elasticsearch-haystack
+accelerate

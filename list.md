@@ -85,16 +85,16 @@
   - PEGASUS 파인튜닝
   - Gradient Accumulation
   - finetunning 결과
-- [07_QA.ipynb](07_QA.ipynb)
+- [07_QA_Retreiver,Reader.ipynb](07_QA_Retreiver,Reader.ipynb)
   - 질의 응답 종류
   - 제품 리뷰에 대한 QA 시스템 구축(SubjQA 데이터 셋)
   - 질문에 대하여 문맥안에서 정답 문장 추출하기
   - 긴 문장 다루기
   - HayStack 을 이용한 pipeline 구축
-  - Retriever 실행하기
-  - Document Store (Vector Store)
+  - QA Retriever Pipeline
+  - ElasticsearchDocumentStore
+  - 리트리버
   - 리더
-  - 모두 스택하기
-  - 평가 : 리트리버
-  - 평가 : 리더
+  - 평가 방법 : 리트리버
+  - 평가 방법 : 리더
 - [99.Langchain.ipynb](99.Langchain.ipynb)
