@@ -97,4 +97,5 @@
   - 리더
   - 평가 방법 : 리트리버
   - 평가 방법 : 리더
+  - DPR and BM25
 - [99.Langchain.ipynb](99.Langchain.ipynb)
