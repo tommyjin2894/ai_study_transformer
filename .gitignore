@@ -6,3 +6,4 @@ pegasus-samsum
 elasticsearch-8.16.1
 elasticsearch-8.16.1-linux-x86_64.tar*
 elastic_keys.json
+distilbert-base-uncased-finetuned-clinic-alpha_1

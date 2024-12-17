@@ -99,4 +99,11 @@
   - 평가 방법 : 리더
   - QA 계층
 - [08_Efficient_ways.ipynb](08_Efficient_ways.ipynb)
+  - 모델 경량화 및 효율적인 트랜스포머 구축
+  - 의도 탐지 (intent detection task)
+  - 효율적인 밴치마크를 위한 함수정의
+  - Knowledge Distillation (지식 증류)
+  - KD(knoledge distillation) 을 위한 트레이너 만들기
+  - 스튜던트 모델 설정(with out knoledge distil)
+  - 티쳐 로드 및 파인튜닝
 - [99.Langchain.ipynb](99.Langchain.ipynb)
