@@ -8,3 +8,4 @@ seaborn
 elasticsearch-haystack
 accelerate
 farm-haystack
+evaluate

@@ -97,5 +97,6 @@
   - 리더
   - 평가 방법 : 리트리버
   - 평가 방법 : 리더
-  - DPR and BM25
+  - QA 계층
+- [08_Efficient_ways.ipynb](08_Efficient_ways.ipynb)
 - [99.Langchain.ipynb](99.Langchain.ipynb)
