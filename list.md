@@ -106,4 +106,8 @@
   - KD(knoledge distillation) 을 위한 트레이너 만들기
   - 스튜던트 모델 설정(with out knoledge distil)
   - 티쳐 로드 및 파인튜닝
+  - grid search with Optuna
+  - hyperparameter 찾기
+  - 양자화 하기(Quantization)
+  - 다양한 종류의 양자화
 - [99.Langchain.ipynb](99.Langchain.ipynb)
