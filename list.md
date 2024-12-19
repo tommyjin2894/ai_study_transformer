@@ -110,4 +110,8 @@
   - hyperparameter 찾기
   - 양자화 하기(Quantization)
   - 다양한 종류의 양자화
+  - ONNX 런타임을 이용한 추론 최적화
+  - Weight Pruning으로 Sparce 한 모델 만들기
+  - Magnitude-based Pruning : 절대값 가지치기
+  - Dynamic Pruning (Iterative Pruning) : 동적 가지치기
 - [99.Langchain.ipynb](99.Langchain.ipynb)

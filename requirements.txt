@@ -10,3 +10,5 @@ accelerate
 farm-haystack
 evaluate
 optuna
+onnxruntime
+onnx
