@@ -12,3 +12,5 @@ evaluate
 optuna
 onnxruntime
 onnx
+scikit-learn
+scikit-multilearn
