@@ -14,3 +14,4 @@ onnxruntime
 onnx
 scikit-learn
 scikit-multilearn
+nlpaug
