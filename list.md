@@ -114,4 +114,18 @@
   - Weight Pruning으로 Sparce 한 모델 만들기
   - Magnitude-based Pruning : 절대값 가지치기
   - Dynamic Pruning (Iterative Pruning) : 동적 가지치기
+- [09_lack_of_label.ipynb](09_lack_of_label.ipynb)
+  - 레이블 부족문제 다루기
+  - 데이터 셋 불러오고 전처리 하기
+  - 훈련 세트로 만들기
+  - 훈련 슬라이스
+  - 베이스 모델 설정(나이브 베이즈 분류기 : Naïve Bayes Classification)
+  - 제로 샷 분류
+  - 제로샷 vs 나이브 베이즈
+  - Data Augmentation
+  - 임베딩을 룩업 테이블로 사용
+  - 파인 튜닝 하기
+  - 프롬프트를 사용한 in-context learning 과 few-shot learning
+  - 레이블 없는 데이터 fine-tunning 하기 (마스킹 예측)
+  - 이후 분류 파인 튜닝 : (먼저 Unsupervised 데이터로 마스킹 예측을 훈련후 => **분류모델 훈련**)
 - [99.Langchain.ipynb](99.Langchain.ipynb)
