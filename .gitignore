@@ -15,3 +15,7 @@ dataset
 onnx
 08_perf_metrics.json
 results
+code
+codeparrot
+codeparrot-train
+codeparrot-valid
