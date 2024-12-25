@@ -1,3 +1,4 @@
+ipywidgets
 datasets
 matplotlib
 torch
